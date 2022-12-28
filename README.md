@@ -54,3 +54,21 @@ Se gli argomenti trattati in precedenza ti hanno appassionato saranno poi dispon
 - Container e orchestratori
 - Serverless computing
 - Programmazione funzionale
+
+## È davvero gratis? 
+
+Assolutamente sì, questo corso vuole essere la mia risposta a tanti altri corsi molto poco professionali che pretendono cifre folli per rilasciare certificazioni o attestati che non hanno alcun valore. Queste "lezioni" saranno disponibili gratuitamente per chiunque voglia imparare a sviluppare, per sempre.
+
+## Quali sono i requisiti? 
+
+Pochi ma necessari: 
+
+- Un computer (le lezioni si possono vedere anche sul cellulare ma per programmare ahimé avrai bisogno di un pc)
+- Tanta voglia di fare
+- Non aver paura di chiedere aiuto (abbiamo un server dedicato su [discord](https://discord.gg/NghxWTy89J))
+
+## Dove posso vedere le lezioni? 
+
+In diretta su [Twitch](https://www.twitch.tv/costadocet), in differita su [YouTube](https://www.youtube.com/@costadocet/). 
+
+Rimani sempre aggiornato su [Instagram](https://www.instagram.com/costadocet.dev/)
