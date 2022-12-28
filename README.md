@@ -35,6 +35,7 @@ Una volta compresi i temi precedenti, quelle che personalmente ritengo siano la 
 A questo punto siamo sicuramente in grado di analizzare dei requisiti e produrre degli applicativi in grado di soddisfarli, ma siamo ben lontani da ciò di cui ha bisogno uno sviluppatore nel mondo del lavoro. Da qui procederemo con lo studio di argomenti che non hanno strettamente a che fare con lo sviluppo del codice, ma che influenzano fortemente le scelte che andremo faremo a lavoro.
 
 - Principi di Networking
+- Version control
 - Introduzione a vari tipi di sviluppo quali:
   - Sviluppo backend
   - Sviluppo frontend
