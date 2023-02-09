@@ -1,6 +1,7 @@
 ﻿using Board.Model;
 using Board.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Linq;
 
 namespace Board.Controllers
 {
@@ -29,6 +30,25 @@ namespace Board.Controllers
         {
             _postRepository.AddPost(post);
             return StatusCode(200);
+        }
+
+        [HttpPost("posts/{postTitle}/comments")]
+        public IActionResult PostComments([FromRoute] string postTitle, [FromBody] string comment)
+        {
+            _postRepository
+                .GetPosts()
+                .Find((post) => post.Title.Equals(postTitle))?
+                .AddComment(comment);
+            return StatusCode(200);
+        }
+
+        [HttpGet("posts/{postTitle}/comments")]
+        public IEnumerable<string>? GetComments([FromRoute] string postTitle)
+        {
+            return _postRepository
+                .GetPosts()
+                .Find((post) => post.Title.Equals(postTitle))?
+                .Comments;
         }
     }
 }

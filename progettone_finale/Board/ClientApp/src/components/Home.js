@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Post } from './Post'
 
 export class Home extends Component {
     static displayName = Home.name;
@@ -57,9 +58,8 @@ export class Home extends Component {
                 <p>Ecco il riassunto di tutti i post:</p>
                 <ul>
                     {this.state.posts.map(post =>
-                        <li>
-                            <h2>{post.title}</h2>
-                            <p>{post.content}</p>
+                        <li key={post.title}>
+                            <Post>{ post }</Post>
                         </li>
                     )}
                 </ul>
